@@ -6,5 +6,6 @@ Fortunately, some extremely dilligent hackers among us have worked backwards to 
 
 ### Additional Links
 
-* Check out the [Navdy Subreddit!](https://www.reddit.com/r/navdy/)  It's fairly active and often has useful information and questions.
+* Check out the [Navdy Subreddit](https://www.reddit.com/r/navdy/)!  It's fairly active and often has useful information and questions.
 * Send pull requests and join the [Navdy Hackers GitHub Organization](https://github.com/Navdy-Hackers) to help us maintain this site!
+* The original [xda-developers thread](https://forum.xda-developers.com/android/software/navdy-display-hud-t3784638/)!
