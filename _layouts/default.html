@@ -13,16 +13,23 @@
 
     <header>
       <div class="container">
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        <h1>Navdy Hackers</h1>
+        <h2>Guides, links, and info to help keep your Navdy useful</h2>
 
+        {% if site.show_downloads %}
         <section id="downloads">
-          {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
             <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-          {% endif %}
-          <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-          <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+        {% endif %}
+        
+        <section id="links">
+          <a href="https://navdy-hackers.github.io/" class="btn"></span>Home</a>
+          <a href="https://navdy-hackers.github.io/" class="btn"></span>How to flash Navdy</a>
+          <a href="https://navdy-hackers.github.io/" class="btn"></span>Where to find firmware</a>
+          <a href="https://navdy-hackers.github.io/" class="btn"></span>Modified Android .apk</a>
+          <a href="https://navdy-hackers.github.io/" class="btn"></span>Update HERE Maps</a>
+          <a href="https://navdy-hackers.github.io/" class="btn"></span>Hardware Information</a>
         </section>
       </div>
     </header>
