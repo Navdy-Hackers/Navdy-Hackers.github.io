@@ -11,4 +11,4 @@
 
 **Note: The first time it starts up after flashing normally takes a long time (2 to 5 minutes) on the navdy boot screen. After that it should be back to normal.**
 
-Shamelessly plagarized from [/u/coronafire's reddit posts](https://www.reddit.com/r/navdy/comments/8g6sdi/howto_update_your_display_firmware_and_hack_it/)!
+This guide was shamelessly plagarized from [/u/coronafire's reddit posts](https://www.reddit.com/r/navdy/comments/8g6sdi/howto_update_your_display_firmware_and_hack_it/)!
