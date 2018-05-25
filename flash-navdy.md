@@ -1,5 +1,7 @@
 ## How to flash your Navdy to a new firmware
 
+Shamelessly plagarized from [/u/coronafire's reddit posts](https://www.reddit.com/r/navdy/comments/8g6sdi/howto_update_your_display_firmware_and_hack_it/)!
+
 1. Download firmware.  Unzip the package on computer.
 2. If you're on windows and haven't used Android ADB or fastboot before, go to `tools\usb_driver` folder inside package and run `dpinst_x64` or `dpinst_x86` to install the usb driver. If you don't know whether your PC is 32 or 64 bit don't worry, try running one and if it doesn't work run the other one.
 3. Take your navdy (not plugged into car), hold down the power button and plug it into computer with the micro usb cable in the back. The navdy power light should come on red.
