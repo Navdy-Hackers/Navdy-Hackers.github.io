@@ -15,6 +15,7 @@ You can update the HERE Maps for display!
 5. Use `adb pull /sdcard/Android/data/com.here.app.maps/files/.here-maps/diskcache-v4` to get the maps on your computer.
    * You might need to replace `/sdcard/` with something like `/storage/emulated/0/` if your phone uses Internal Storage
    * If you're missing your PATH variable for adb, but you still have it downloaded, you could call it like this: `"C:\Users\YOUR_USERNAME_HERE\AppData\Local\Android\Sdk\platform-tools\adb.exe"`
+   * The contents of that folder will be copied to wherever your command prompt is open to.
 6. Plug your Navdy into the computer.
 7. Back up the `.here-maps\diskcache-v4` folder from your Navdy.  Save this somewhere safe, so you can revert in case something goes wrong.
 8. Copy the new `diskcache-v4` folder onto your Navdy.
