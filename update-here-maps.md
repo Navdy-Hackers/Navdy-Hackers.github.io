@@ -1,7 +1,13 @@
 ## How to update HERE Maps
 
-You can update the HERE Maps for display.  An Android device is required, and you should have Android developer tools installed to have access to `abd`.
+You can update the HERE Maps for display!
 
+### Requirements
+* an Android device
+* Android developer tools installed on your computer (to have access to `abd`)
+* Android device in USB debugging mode
+
+### Instructions
 1. Search, download, and install the .apk named: `HERE WeGo Offline Maps GPS v2.0.11480` **Note: Later versions are not working.**
 2. Launch the app, go to the sidebar and tap Download Maps
 3. Download the offline maps for your region.  (I downloaded USA and Canada, not the whole North America region.  I'm not sure if it matters.)
