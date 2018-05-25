@@ -7,7 +7,7 @@ You can update the HERE Maps for display.  An Android device is required.
 3. Plug your phone into the computer.
 4. Use `adb pull /sdcard/Android/data/com.here.app.maps/files/.here-maps/diskcache-v4` to get the maps on your computer.  (You might need to replace `/sdcard` if your phone uses Internal Storage)
 5. Plug your Navdy into the computer.
-6. Back up the `diskcache-v4` folder from your Navdy.  Save this somewhere safe, so you can revert in case something goes wrong.
+6. Back up the `.here-maps\diskcache-v4` folder from your Navdy.  Save this somewhere safe, so you can revert in case something goes wrong.
 7. Copy the new `diskcache-v4` folder onto your Navdy.
 
 This guide was shamelessly plagarized from [navx2vad's post on xda-developers](https://forum.xda-developers.com/showpost.php?p=76393133&postcount=2)!
