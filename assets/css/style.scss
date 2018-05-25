@@ -1,0 +1,19 @@
+---
+---
+
+@import "jekyll-theme-midnight";
+
+#header {
+  nav {
+    li {
+      &.nav-links {
+        float: left;
+        margin-left: 6px;
+      }
+    }
+  }
+}
+
+code {
+  background-color: #545454;
+}
