@@ -19,5 +19,6 @@ You can update the HERE Maps for display!
 6. Plug your Navdy into the computer.
 7. Back up the `.here-maps\diskcache-v4` folder from your Navdy.  Save this somewhere safe, so you can revert in case something goes wrong.
 8. Copy the new `diskcache-v4` folder onto your Navdy.
+   * Note: I needed to delete the existing files under `diskcache-v4` on my Navdy, to make room for the new ones.
 
 This guide was shamelessly plagarized from [navx2vad's post on xda-developers](https://forum.xda-developers.com/showpost.php?p=76393133&postcount=2)!
