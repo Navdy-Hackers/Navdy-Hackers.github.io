@@ -18,19 +18,17 @@
     height: auto;
 }
 
-.wrapper {
-    padding-top: 3.5em;
-}
-
-@media print, screen and (max-width: 480px) {
-  nav {
-    display: inherit;
-  }
-}
-
 @media print, screen and (max-width: 480px) {
   #header {
     margin-top: 0px;
+  }
+  
+  nav {
+    display: inherit;
+  }
+  
+  .wrapper {
+    padding-top: 3.5em;
   }
 }
 
