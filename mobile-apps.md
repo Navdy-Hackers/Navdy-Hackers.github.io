@@ -1,3 +1,6 @@
+Using a modified Android app, you can regain access to Google Maps search and voice search!
+As of now, there is no modified iOS app available. :(
+
 ## Using a modified Android .apk
 
 First of all, massive thanks to [/u/navdyh4x0r](https://www.reddit.com/user/navdyh4x0r)'s [fantastic post](https://np.reddit.com/r/navdy/comments/84o0gt/working_search_on_android/) outlining what was needed to replace the Google Maps API keys!
@@ -8,4 +11,4 @@ Thanks to that, [/u/coronafire](https://www.reddit.com/user/coronafire) made [an
 
 1. Download .apk from above source
 2. Uninstall existing Navdy app (this step was necessary for me, but you can try to skip it first)
-3. Copy .apk to your phone and run it to install
+3. Copy .apk to your phone, allow installation from unknown sources, and run the .apk to install
