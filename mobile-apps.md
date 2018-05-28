@@ -1,5 +1,6 @@
 Using a modified Android app, you can regain access to Google Maps search and voice search!
-As of now, there is no modified iOS app available. :(
+
+*As of now, there is no modified iOS app available.* :(
 
 ## Using a modified Android .apk
 
