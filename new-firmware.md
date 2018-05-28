@@ -1,6 +1,11 @@
+## Finding new firmware for your Navdy display
+
+Right now, [/u/coronafire](https://www.reddit.com/user/coronafire/) is the only person I know who releases modified and pre-built firmware for you to use.  I recommend checking [his post history](https://www.reddit.com/user/coronafire/submitted/) to see if he's released any new versions or added any comments.  You can also find his changes directly on his [Navdy GitLab page](https://gitlab.com/alelec/navdy/)! Be sure to send him a thank you, for all his hard work to restore functionality to our devices!
+
+
 ## How to flash your Navdy to a new firmware
 
-1. [Find your new firmware](https://navdy-hackers.github.io/find-firmware) and download it.  Unzip the package on computer.
+1. [Find your new firmware](#finding-new-firmware-for-your-navdy-display) and download it.  Unzip the package on computer.
 2. If you're on windows and haven't used Android ADB or fastboot before, go to `tools\usb_driver` folder inside package and run `dpinst_x64` or `dpinst_x86` to install the usb driver. If you don't know whether your PC is 32 or 64 bit don't worry, try running one and if it doesn't work run the other one.
 3. Take your navdy (not plugged into car), hold down the power button and plug it into computer with the micro usb cable in the back. The navdy power light should come on red.
 4. On windows, run `FLASH_WIN` to start the upgrade. If there are any errors reported, please reach out to the firmware's author. Mac or Linux does work as well but hasn't been tested as much. You should be able to run `FLASH_OSX_LINUX` script though to start the upgrade. Linux users need to provide their sudo password for it to work.
